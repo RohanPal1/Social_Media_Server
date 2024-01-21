@@ -28,7 +28,7 @@ app.use(morgan("common"));
 app.use(cookieParser());
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000'
+    origin: 'https://social-media-client-lime.vercel.app'
 }));
 
 // let origin = 'http://localhost:3000';
